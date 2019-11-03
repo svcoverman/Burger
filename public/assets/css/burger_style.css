@@ -1,0 +1,49 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: 100% 100%;
+}
+
+#burgerRow {
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+div.transbox {
+    margin: 2%;
+    padding: 30px;
+    background-color: rgba(223, 120, 57, 0.6);
+    height: 70vh;
+    display: -webkit-flex;
+    -webkit-align-items: center; 
+    display: flex;
+    align-items: center;
+}
+
+div.transbox h2, h3, p {
+    color: black;
+}
+
+h1{
+    background-image: url("../img/hamburger.png"), url("../img/hamburger2.png"), url("../img/hamburger.png"); /* set each bg image */
+    background-position: left center, center center, right center; /* set position of each bg image */
+    background-repeat: no-repeat, no-repeat, no-repeat; /* set repeat of each bg image */
+    padding: 0 97px; /* 92px is the width of my left and right bg images */
+    height: 130px; /* 120px is the height of each bg image */
+    line-height: 130px; /* ditto */
+    text-align: center;
+    text-shadow: chocolate;
+}
+
+#devoured, #notDevoured {
+    text-align: left;
+}
+
+.devourbtn {
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
